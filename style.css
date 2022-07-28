@@ -1,0 +1,36 @@
+body{
+    font-family: 'Ibarra Real Nova', sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    max-width: 750px;
+    margin: auto;
+}
+
+.description{
+   /* font-family: 'Fira Code', sans-serif;*/
+}
+
+.heading{
+     font-family: 'Fira Code', sans-serif;
+}
+
+.project-image > img{
+    width: 300px;
+    height: 200px;
+}
+
+.image-description-wrapper{
+    display: flex;
+    gap:20px;
+}
+
+.technologies{
+    display: flex;
+}
+
+.about-me-socials{
+    display:flex;
+    justify-items: center;
+}
