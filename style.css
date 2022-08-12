@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .container{
@@ -12,7 +12,7 @@ body{
     display: flex;
     gap: 40px; 
     justify-content: center;
-    padding: 50px;
+    padding: 25px;
     border-bottom: 2px solid black;
 }
 
@@ -65,23 +65,19 @@ body{
 }
 
 .about-me-contents > .image-wrapper > img {
-    width: 700px;
-    height: 700px;
+    width: 550px;
+    height: 550px;
+    filter:grayscale(1);
+    transition: 0.5s ease-in-out;
+}
+
+.about-me-contents > .image-wrapper > img:hover{
+    filter: none;
 }
 .about-me-socials{
     display:flex;
     justify-content: center;
     gap: 25px;
-}
-
-.my-skills-section{
-    padding-bottom: 4rem; 
-}
-
-.my-skills-wrapper{
-    display: flex; 
-    justify-content: center;
-    gap: 300px;
 }
 
 .btn{
@@ -97,4 +93,59 @@ body{
 
 .btn:hover{
     background-color: pink;
+}
+
+.my-skills-section{
+    padding-bottom: 4rem; 
+}
+
+.my-skills-section > .skills-heading {
+   text-align: center;
+   padding-top: 75px;
+}
+
+.my-skills-wrapper{
+    display: flex; 
+    justify-content: center;
+    gap: 350px;
+}
+
+.skill {
+    padding-bottom: 15px;
+}
+
+.skill > .skill-name{
+    font-size: 14   px;
+}
+
+.skill-bar {
+    height: 5px; 
+    background: #c4c2c262;
+    border-radius: 2px;
+
+}
+
+
+.skill-per{
+    height: 5px; 
+    background-color: rgb(216, 131, 145);
+    position:relative;
+    border-radius: 2px;
+    animation: fillBars 2.5s 1;
+}
+.programming-languages-wrapper {
+    width: 25%;
+}
+
+.tech-wrapper{
+    width: 25%;   
+}
+
+@keyframes fillBars {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
 }
