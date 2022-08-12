@@ -1,16 +1,41 @@
 body{
-    font-family: 'Ibarra Real Nova', sans-serif;
-    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
 }
 
 .container{
-    max-width: 750px;
+    max-width: 1200px;
     margin: auto;
 }
 
-.description{
-   /* font-family: 'Fira Code', sans-serif;*/
+.nav{
+    display: flex;
+    gap: 40px; 
+    justify-content: center;
+    padding: 50px;
+    border-bottom: 2px solid black;
 }
+
+.nav > .link{
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.nav > .link:hover {
+    border-bottom: 2px solid pink;
+}
+
+.nav > .link-even{
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.nav > .link-even:hover {
+    border-bottom: 2px solid aqua;
+}
+
 
 .heading{
      font-family: 'Fira Code', sans-serif;
@@ -30,7 +55,46 @@ body{
     display: flex;
 }
 
+.about-me-wrapper{
+    padding-top: 30px;
+}
+
+.about-me-contents {
+    display: flex;
+    gap: 50px;
+}
+
+.about-me-contents > .image-wrapper > img {
+    width: 700px;
+    height: 700px;
+}
 .about-me-socials{
     display:flex;
-    justify-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.my-skills-section{
+    padding-bottom: 4rem; 
+}
+
+.my-skills-wrapper{
+    display: flex; 
+    justify-content: center;
+    gap: 300px;
+}
+
+.btn{
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    background-color: green;
+    transition: 1s;
+}
+
+.btn:hover{
+    background-color: pink;
 }
