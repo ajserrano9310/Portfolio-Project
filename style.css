@@ -3,8 +3,14 @@ body{
     font-size: 15px;
 }
 
+.container-grid{
+    display:grid;
+    grid-template-columns: 9fr 1fr ;
+}
+
 .container{
-    max-width: 1200px;
+    display: grid;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -60,6 +66,7 @@ body{
 }
 
 .about-me-contents {
+    padding-left: 30px;
     display: flex;
     gap: 50px;
 }
@@ -75,9 +82,19 @@ body{
     filter: none;
 }
 .about-me-socials{
+    padding-top: 20px;
     display:flex;
     justify-content: center;
     gap: 25px;
+}
+
+.about-me-socials > .social > i{
+    font-size: 20px;
+    transition: 250ms;
+}
+
+.about-me-socials > .social > i:hover{
+    font-size: 25px;
 }
 
 .btn{
@@ -88,11 +105,7 @@ body{
     border-bottom-right-radius: 20px;
     border: none;
     background-color: green;
-    transition: 1s;
-}
-
-.btn:hover{
-    background-color: pink;
+    transition: 500ms;
 }
 
 .my-skills-section{
@@ -125,6 +138,15 @@ body{
 
 }
 
+.selection-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position:fixed;
+    left: 150px;
+    bottom: 500px;
+}
+
 
 .skill-per{
     height: 5px; 
@@ -139,6 +161,21 @@ body{
 
 .tech-wrapper{
     width: 25%;   
+}
+
+#left-nav {
+    position: fixed;
+    left: -200px;
+    width: 150px;
+    height: 100px;
+    -webkit-animation: slide 250ms forwards;
+    -webkit-animation-delay: 250ms;
+    animation: slide 250ms forwards;
+    animation-delay: 250ms;
+}
+
+@keyframes slide {
+    100% { left: 100px; }
 }
 
 @keyframes fillBars {

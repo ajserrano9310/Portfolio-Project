@@ -11,8 +11,10 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Ubuntu">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu"
+    />
 
     <script
       src="https://kit.fontawesome.com/89202e165b.js"
@@ -20,13 +22,15 @@
     ></script>
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="icon.css" />
+  
   </head>
   <body>
     <div class="nav">
       <div class="link">
         <div class="about-link">about me</div>
       </div>
-      
+
       <div class="link-even">
         <div class="projects-link">projects</div>
       </div>
@@ -34,127 +38,207 @@
       <div class="link">
         <div class="contact-link">contact me</div>
       </div>
-      
+
       <div class="link-even">
         <div class="resume-link">resume</div>
-      </div>      
+      </div>
     </div>
 
-    <div class="container">
-      <div class="about-me-wrapper">
-        <div class="about-me-contents">
-          <div class="image-wrapper">
-            <img src="/resources/port-pic.jpg" />
-            <div class="about-me-socials">
-              <div class="instagram">
-                <i class="fa-brands fa-instagram"></i>
+    <div class="container-grid">
+      <div class="container">
+        <div class="about-me-wrapper">
+          <div class="about-me-contents">
+            <div class="image-wrapper">
+              <img src="/resources/port-pic.jpg" />
+              <div class="about-me-socials">
+                <div class="social">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="social">
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <div class="social">
+                  <i class="fa-brands fa-github"></i>
+                </div>
               </div>
-              <div class="linkedin">
-                <i class="fa-brands fa-linkedin"></i>
-              </div>
-              <div class="github">
-                <i class="fa-brands fa-github"></i>
-              </div>
+            </div>
+
+            <div class="personal-description">
+              <h1 class="heading">About me</h1>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Tempora, amet ab voluptatum enim sit nihil doloremque aliquam
+                voluptas omnis eum vel recusandae cumque. Omnis nemo, quam
+                soluta maxime molestias eius accusamus voluptatibus quaerat
+                temporibus iure modi dicta explicabo earum repellat.
+              </p>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Tempora, amet ab voluptatum enim sit nihil doloremque aliquam
+                voluptas omnis eum vel recusandae cumque. Omnis nemo, quam
+                soluta maxime molestias eius accusamus voluptatibus quaerat
+                temporibus iure modi dicta explicabo earum repellat.
+              </p>
+
+              
             </div>
           </div>
 
-          <div class="personal-description">
-            <h1 class="heading">About me</h1>
-            <p class="description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
-              amet ab voluptatum enim sit nihil doloremque aliquam voluptas
-              omnis eum vel recusandae cumque. Omnis nemo, quam soluta maxime
-              molestias eius accusamus voluptatibus quaerat temporibus iure modi
-              dicta explicabo earum repellat.
-            </p>
-            <p class="description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
-              amet ab voluptatum enim sit nihil doloremque aliquam voluptas
-              omnis eum vel recusandae cumque. Omnis nemo, quam soluta maxime
-              molestias eius accusamus voluptatibus quaerat temporibus iure modi
-              dicta explicabo earum repellat.
-            </p>
+          <div class="my-skills-section">
+            <div class="skills-heading">
+              <h2 class="heading">Skills</h2>
+            </div>
 
-            <button class="btn">
-              <i class="fa-solid fa-file"></i> CV
-            </button>
+            <div class="my-skills-wrapper">
+              <div class="programming-languages-wrapper">
+                <h4>Programming Languages</h4>
+
+                <div class="skill">
+                  <div class="skill-name">C# (75%)</div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-per"
+                      per="75%"
+                      style="max-width: 75%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <div class="skill-name">Java</div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-per"
+                      per="60%"
+                      style="max-width: 60%"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill-name">JavaScript</div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-per"
+                      per="90%"
+                      style="max-width: 90%"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill-name">HTML</div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-per"
+                      per="90%"
+                      style="max-width: 90%"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill-name">CSS</div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-per"
+                      per="90%"
+                      style="max-width: 90%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tech-wrapper">
+                <h4>Techonologies</h4>
+                <div class="skill">
+                  <div class="skill-name">Unity</div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-per"
+                      per="75%"
+                      style="max-width: 75%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <div class="skill-name">Visual Studio</div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-per"
+                      per="60%"
+                      style="max-width: 60%"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill-name">Git/Github</div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-per"
+                      per="90%"
+                      style="max-width: 90%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="my-skills-section">
 
-          <div class="skills-heading">
-            <h2 class="heading">Skills</h2>
+        <div class="projects-wrapper">
+          <h1 class="heading">Projects</h1>
+          <div class="card">
+            <div class="title heading">
+              <h3>
+                Tiny Weather app
+                <i class="fa-solid fa-code"></i>
+              </h3>
+            </div>
+            <div class="image-description-wrapper">
+              <div class="project-image">
+                <img src="/resources/tiny-weather-app.jpg" />
+              </div>
+  
+              <div class="description-wrapper">
+                <p class="description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit
+                  incidunt, soluta excepturi voluptate rerum voluptatem earum fuga
+                  modi quidem quia sint, qui neque temporibus veritatis
+                  repellendus perferendis aperiam ullam architecto!
+                </p>
+                <div class="technologies">
+                  Tech:
+                  <br />
+                  <div class="tech"><i class="fa-brands fa-html5"></i></div>
+                  <div class="tech"><i class="fa-brands fa-css3"></i></div>
+                  <div class="tech"><i class="fa-brands fa-js"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="left-nav" class="selection-bar">
+        <div class="section">
+          <div class="icon">
+            <i class="fa-solid fa-user"></i>
+          </div>
+           about me 
+        </div>
+        <div class="section">
+          <div class="icon">
+            <i class="fa-solid fa-gears"></i> 
           </div>
           
-
-          <div class="my-skills-wrapper">
-            <div class="programming-languages-wrapper">
-              <h4>Programming Languages</h4>
-
-              <div class="skill">
-                <div class="skill-name">C# (75%)</div>
-                <div class="skill-bar">
-                  <div class="skill-per" per="75%" style="max-width:75%"></div>
-                </div>
-              </div>
-              <div class="skill">
-                <div class="skill-name">Java</div>
-                <div class="skill-bar">
-                  <div class="skill-per" per="60%" style="max-width:60%"></div>
-                  
-                </div>
-              </div>
-
-              <div class="skill">
-                <div class="skill-name">JavaScript</div>
-                <div class="skill-bar">
-                  <div class="skill-per" per="90%" style="max-width:90%"></div>
-                </div>
-              </div>
-
-              <div class="skill">
-                <div class="skill-name">HTML</div>
-                <div class="skill-bar">
-                  <div class="skill-per" per="90%" style="max-width:90%"></div>
-                </div>
-              </div>
-
-              <div class="skill">
-                <div class="skill-name">CSS</div>
-                <div class="skill-bar">
-                  <div class="skill-per" per="90%" style="max-width:90%"></div>
-                </div>
-              </div>
-             
-        
-            </div>
-
-            <div class="tech-wrapper">
-              <h4>Techonologies</h4>
-              <div class="skill">
-                <div class="skill-name">Unity</div>
-                <div class="skill-bar">
-                  <div class="skill-per" per="75%" style="max-width:75%"></div>
-                </div>
-              </div>
-              <div class="skill">
-                <div class="skill-name">Visual Studio</div>
-                <div class="skill-bar">
-                  <div class="skill-per" per="60%" style="max-width:60%"></div>
-                  
-                </div>
-              </div>
-
-              <div class="skill">
-                <div class="skill-name">Git/Github</div>
-                <div class="skill-bar">
-                  <div class="skill-per" per="90%" style="max-width:90%"></div>
-                </div>
-              </div>
-              </div>
-            </div>
-          </div>
+          skills
+        </div>
+        <div class="section">
+          <i class="fa-solid fa-briefcase"></i> projects
+        </div>
+        <div class="section">
+          <i class="fa-solid fa-envelope"></i> contact
         </div>
       </div>
     </div>
