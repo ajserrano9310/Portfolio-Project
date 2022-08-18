@@ -1,7 +1,7 @@
 
 
 
-
+document.getElementById("left-nav").style.display = "none";
 window.onscroll = function(){
     var top = window.scrollY || document.documentElement.scrollTop;
     if(top > 100){
