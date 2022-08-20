@@ -16,13 +16,17 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu"
     />
 
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Josefin+Sans">
+
     <script
       src="https://kit.fontawesome.com/89202e165b.js"
       crossorigin="anonymous"
     ></script>
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="icon.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="styles/icon.css" />
+    <link rel="stylesheet" href="styles/nav.css" />
   
   </head>
   <body>
@@ -47,9 +51,12 @@
     <div class="container-grid">
       <div class="container">
         <div class="about-me-wrapper">
+          <div>
+            <h1 class="heading">About me</h1>
+          </div>
           <div class="about-me-contents">
             <div class="image-wrapper">
-              <img src="/resources/port-pic.jpg" />
+              <img src="/resources/about-me.jpg" />
               <div class="about-me-socials">
                 <div class="social">
                   <i class="fa-brands fa-instagram"></i>
@@ -62,9 +69,9 @@
                 </div>
               </div>
             </div>
-
+            
             <div class="personal-description">
-              <h1 class="heading">About me</h1>
+              
               <p class="description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Tempora, amet ab voluptatum enim sit nihil doloremque aliquam
@@ -85,8 +92,15 @@
           </div>
 
           <div class="my-skills-section">
-            <div class="skills-heading">
-              <h2 class="heading">Skills</h2>
+
+            <div>
+              <h1 class="heading">Skills</h1>
+            </div>
+
+            <div>
+              <p>
+                Here you can find some of the skills I am most comfortable with. 
+              </p>
             </div>
 
             <div class="my-skills-wrapper">
@@ -222,23 +236,30 @@
       </div>
       <div id="left-nav" class="selection-bar">
         <div class="section">
-          <div class="icon">
+          <div id="about-me" class="icon">
             <i class="fa-solid fa-user"></i>
           </div>
-           about me 
+          <div class="section-name">
+            about me
+          </div>
+            
         </div>
         <div class="section">
           <div class="icon">
             <i class="fa-solid fa-gears"></i> 
           </div>
           
-          skills
         </div>
         <div class="section">
-          <i class="fa-solid fa-briefcase"></i> projects
+          <div class="icon">
+            <i class="fa-solid fa-briefcase"></i> 
+          </div>
+          
         </div>
         <div class="section">
-          <i class="fa-solid fa-envelope"></i> contact
+          <div class="icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
         </div>
       </div>
     </div>

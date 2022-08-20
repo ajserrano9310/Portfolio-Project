@@ -1,0 +1,13 @@
+.icon {
+    background-color: #FF0063;
+    color: white;
+    width: 20px;
+    text-align: center;
+    padding: 5px;
+  
+}
+
+.section > .section-name{
+    background-color: #EAF6F6;
+    width: 70px;
+}

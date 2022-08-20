@@ -3,48 +3,18 @@ body{
     font-size: 15px;
 }
 
-.container-grid{
-    display:grid;
-    grid-template-columns: 9fr 1fr ;
-}
-
 .container{
     display: grid;
     max-width: 1000px;
     margin: auto;
-}
-
-.nav{
-    display: flex;
-    gap: 40px; 
-    justify-content: center;
-    padding: 25px;
-    border-bottom: 2px solid black;
-}
-
-.nav > .link{
-    padding-bottom: 5px;
-    border-bottom: 2px solid transparent;
-    transition: 0.5s;
-}
-
-.nav > .link:hover {
-    border-bottom: 2px solid pink;
-}
-
-.nav > .link-even{
-    padding-bottom: 5px;
-    border-bottom: 2px solid transparent;
-    transition: 0.5s;
-}
-
-.nav > .link-even:hover {
-    border-bottom: 2px solid aqua;
+    padding-left: 200px;
 }
 
 
 .heading{
-     font-family: 'Fira Code', sans-serif;
+     font-family:'Josefin Sans', sans-serif;
+     font-size: 40px;
+     padding-left: 65px;
 }
 
 .project-image > img{
@@ -72,8 +42,8 @@ body{
 }
 
 .about-me-contents > .image-wrapper > img {
-    width: 550px;
-    height: 550px;
+    width: 450px;
+    height: 450px;
     filter:grayscale(1);
     transition: 0.5s ease-in-out;
 }
@@ -89,6 +59,7 @@ body{
 }
 
 .about-me-socials > .social > i{
+    padding: 20px;
     font-size: 20px;
     transition: 250ms;
 }
@@ -143,14 +114,14 @@ body{
     flex-direction: column;
     gap: 25px;
     position:fixed;
-    left: 150px;
-    bottom: 500px;
+    left: 175px;
+    bottom: 600px;
 }
 
 
 .skill-per{
     height: 5px; 
-    background-color: rgb(216, 131, 145);
+    background-color:#66BFBF;
     position:relative;
     border-radius: 2px;
     animation: fillBars 2.5s 1;
@@ -175,7 +146,7 @@ body{
 }
 
 @keyframes slide {
-    100% { left: 100px; }
+    100% { left: 250px; }
 }
 
 @keyframes fillBars {
