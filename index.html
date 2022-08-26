@@ -27,31 +27,40 @@
     <link rel="stylesheet" href="/styles/style.css" />
     <link rel="stylesheet" href="styles/icon.css" />
     <link rel="stylesheet" href="styles/nav.css" />
+    <link rel="stylesheet" href="styles/about-me.css" />
   
     <!--something here-->
   </head>
   <body>
     <div class="nav">
       <div class="link">
-        <div class="about-link">about me</div>
+        <div class="about-link section-btn" id="about-me">about me</div>
       </div>
 
       <div class="link-even">
-        <div class="projects-link">projects</div>
+        <div class="projects-link section-btn" id="projects">projects</div>
       </div>
 
       <div class="link">
-        <div class="contact-link">contact me</div>
+        <div class="contact-link section-btn" id="contact-me">contact me</div>
       </div>
 
       <div class="link-even">
-        <div class="resume-link">resume</div>
+        <div class="resume-link section-btn" id="resume">resume</div>
       </div>
     </div>
+
     <!-- Testing -->
     <div class="container-grid">
+
+      <!--Container for the entire application. Creates the requrired spacing-->
       <div class="container">
-        <div class="about-me-wrapper">
+
+        <!--Actual content section-->
+
+        <!-- ABOUT ME WRAPPER SECTION -->
+
+        <div class="about-me-section section active" id="about-me-wrapper">
           <div>
             <h1 class="heading">About me</h1>
           </div>
@@ -201,8 +210,8 @@
           </div>
         </div>
 
-
-        <div class="projects-wrapper">
+        <!-- WRAPPER FOR THE PROJECTS -->
+        <div class="projects-section section" id="projects-wrapper">
           <h1 class="heading">Projects</h1>
           <div class="card">
             <div class="title heading">
@@ -234,9 +243,19 @@
             </div>
           </div>
         </div>
+
+        <div class="contact-section section" id="contact-me-wrapper">
+          <h1>Contact section</h1>
+        </div>
+
+        <div class="resume-section section" id="resume-wrapper">
+          <h1>Resume</h1>
+        </div>
       </div>
+
+
       <div id="left-nav" class="selection-bar">
-        <div class="section">
+        <div class="">
           <div id="about-me" class="icon">
             <i class="fa-solid fa-user"></i>
           </div>
@@ -245,19 +264,19 @@
           </div>
             
         </div>
-        <div class="section">
+        <div class="">
           <div class="icon">
             <i class="fa-solid fa-gears"></i> 
           </div>
           
         </div>
-        <div class="section">
+        <div class="">
           <div class="icon">
             <i class="fa-solid fa-briefcase"></i> 
           </div>
           
         </div>
-        <div class="section">
+        <div class="">
           <div class="icon">
             <i class="fa-solid fa-envelope"></i>
           </div>
@@ -265,5 +284,6 @@
       </div>
     </div>
     <script src="test.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>

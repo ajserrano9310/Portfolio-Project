@@ -1,0 +1,36 @@
+.about-me-section{
+    padding-top: 30px;
+}
+
+.about-me-contents {
+    padding-left: 30px;
+    display: flex;
+    gap: 50px;
+}
+
+.about-me-contents > .image-wrapper > img {
+    width: 650px;
+    height: 650px;
+    filter:grayscale(1);
+    transition: 0.5s ease-in-out;
+}
+
+.about-me-contents > .image-wrapper > img:hover{
+    filter: none;
+}
+.about-me-socials{
+    padding-top: 20px;
+    display:flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.about-me-socials > .social > i{
+    padding: 20px;
+    font-size: 20px;
+    transition: 250ms;
+}
+
+.about-me-socials > .social > i:hover{
+    font-size: 25px;
+}
