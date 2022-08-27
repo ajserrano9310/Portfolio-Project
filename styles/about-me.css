@@ -45,3 +45,12 @@
     cursor: pointer;
     /*color: #F87474;*/
 }
+
+.description >{
+    padding-right: 175px;
+    
+}
+
+.description > .desc-right-border{
+    border-right: 3px inset #F87474 ; 
+}
