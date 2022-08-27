@@ -15,12 +15,6 @@ body{
 }
 
 
-.heading{
-     font-family:'Josefin Sans', sans-serif;
-     font-size: 40px;
-     padding-left: 31px;
-}
-
 .project-image > img{
     width: 300px;
     height: 200px;
@@ -35,20 +29,15 @@ body{
     display: flex;
 }
 
-.btn{
-    padding: 10px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border: none;
-    background-color: green;
-    transition: 500ms;
-}
-
 .my-skills-section{
     padding-top: 3rem;
     padding-bottom: 4rem; 
+    padding-left: 30px;
+}
+
+.skills-description
+{
+    border-right: 3px inset #EAF6F6;
 }
 
 .my-skills-section > .skills-heading {
@@ -59,8 +48,8 @@ body{
 .my-skills-wrapper{
     display: flex; 
     justify-content: center;
-    gap: 439px;
-    padding-right: 30px;
+    gap: 127px;
+    padding-right: 103px;
 
 }
 

@@ -28,8 +28,9 @@
     <link rel="stylesheet" href="styles/icon.css" />
     <link rel="stylesheet" href="styles/nav.css" />
     <link rel="stylesheet" href="styles/about-me.css" />
+    <link rel="stylesheet" href="styles/section-header.css" />
+
   
-    <!--something here-->
   </head>
   <body>
     <div class="nav">
@@ -60,13 +61,26 @@
 
         <!-- ABOUT ME WRAPPER SECTION -->
 
-        <div class="about-me-section section active" id="about-me-wrapper">
-          <div>
-            <h1 class="heading">About me</h1>
+        <div class="section-header">
+          <div class="square-container">
+            <div class="square">
+            </div>
+
           </div>
+         
+
+          <div class="section-heading" id="section-title">
+            <h1 class="heading">about-me</h1>
+          </div>
+        </div>
+
+        <div class="about-me-section section active" id="about-me-wrapper">
           <div class="about-me-contents">
             <div class="image-wrapper">
-              <img src="/resources/about-me.jpg" />
+              <div class="image-container">
+                <img src="/resources/about-me.jpg" />
+              </div>
+              
               <div class="about-me-socials">
                 <div class="social">
                   <i class="fa-brands fa-instagram"></i>
@@ -81,6 +95,10 @@
             </div>
             
             <div class="personal-description">
+
+              <div>
+                <h2>bio</h2>
+              </div>
               
               <p class="description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -104,16 +122,23 @@
           <div class="my-skills-section">
 
             <div>
-              <h1 class="heading">Skills</h1>
+              <h2>skills</h2>
             </div>
 
-            <div>
-              <p>
-                Here you can find some of the skills I am most comfortable with. 
-              </p>
-            </div>
 
             <div class="my-skills-wrapper">
+              
+            <div class="skills-description">
+              <p>
+                These are some of the programming languages 
+                and technologies I am most comfortable with. 
+              </p>
+              <p>
+                Currently, I'm improving my JavaScript skills and also 
+                learning the React framework by going through 
+                <a>The Odin Project</a> bootcamp. 
+              </p>
+            </div>
               <div class="programming-languages-wrapper">
                 <h4>Programming Languages</h4>
 
@@ -253,35 +278,6 @@
         </div>
       </div>
 
-
-      <div id="left-nav" class="selection-bar">
-        <div class="">
-          <div id="about-me" class="icon">
-            <i class="fa-solid fa-user"></i>
-          </div>
-          <div class="section-name">
-            about me
-          </div>
-            
-        </div>
-        <div class="">
-          <div class="icon">
-            <i class="fa-solid fa-gears"></i> 
-          </div>
-          
-        </div>
-        <div class="">
-          <div class="icon">
-            <i class="fa-solid fa-briefcase"></i> 
-          </div>
-          
-        </div>
-        <div class="">
-          <div class="icon">
-            <i class="fa-solid fa-envelope"></i>
-          </div>
-        </div>
-      </div>
     </div>
     <script src="test.js"></script>
     <script src="app.js"></script>

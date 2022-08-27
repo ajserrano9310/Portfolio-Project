@@ -15,6 +15,7 @@
 
 .nav > .link:hover {
     border-bottom: 2px solid pink;
+    cursor: pointer;
 }
 
 .nav > .link-even{
@@ -25,4 +26,5 @@
 
 .nav > .link-even:hover {
     border-bottom: 2px solid aqua;
+    cursor: pointer;
 }
