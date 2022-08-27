@@ -6,23 +6,6 @@ for(let i = 0; i < sectionBtns.length; i++)
     sectionBtns[i].addEventListener('click', myFunction);
 }
 
-
-function removeClass1()
-{
-    let element = document.getElementById('about-me'); 
-    element.classList.remove('container-grid');
-    element.classList.add('active');
-}
-
-function removeClass2()
-{
-
-    let element = document.getElementById('about-me'); 
-    element.classList.remove('active');
-    element.classList.add('container-grid');
-
-}
-
 function myFunction(e)
 {
     let sections = document.querySelectorAll('.section');
