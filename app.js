@@ -2,10 +2,10 @@
 let sectionBtns = document.querySelectorAll('.section-btn');
 
 const titleColors = {
-    "projects": {deepBlue: "#041562"},
-    "about-me": {deepRed: "#EC255A"},
-    "contact-me": {deepTeal: "#24A19C"}, 
-    "resume":{ deepCeleste: "#66BFBF"} 
+    "projects": {color: "#041562"},
+    "about-me": {color: "#EC255A"},
+    "contact-me": {color: "#24A19C"}, 
+    "resume":{ color: "#66BFBF"} 
 
 }
 
@@ -18,7 +18,6 @@ function activateSection(e)
 {
     let sections = document.querySelectorAll('.section');
     let sectionID = e.target.id;
-    console.log(sectionID);
 
     if(sectionID)
     {
@@ -28,18 +27,19 @@ function activateSection(e)
     }
 
     let elementToDisplay = sectionID + "-wrapper"; 
-    console.log(elementToDisplay);
     let sectionToActivate = document.getElementById(elementToDisplay);
-    console.log(sectionToActivate);
     sectionToActivate.classList.add('active');
     changeSectionTitle(sectionID);
 }
 
 function changeSectionTitle(sectionID)
 {
+    // Change the colors of the square
     let titleColor = titleColors[sectionID];
-    console.log(titleColor);
+    let square = document.getElementById('square');
+    square.style.backgroundColor = titleColor.color;
+
+    // Change the title text
     let title = document.getElementById("section-title");
-    console.log(title);
     title.innerHTML = sectionID; 
 }
