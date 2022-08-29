@@ -3,7 +3,7 @@
     padding-left: 32px;
     display:grid; 
     grid-template-columns: 1.5fr 3fr;
-    grid-gap:100px;
+    grid-gap:31px;
 }
 
 
@@ -23,8 +23,8 @@
 
     border-radius: 2px;
     border:none; 
-    border-bottom: 3px solid #11122b;
-    width: 340px;
+    border-bottom: 3px solid #45327887;
+    width: 400px;
 
     display: block; 
 
@@ -39,7 +39,7 @@
 
 .form textarea{
     margin-top: 5px; 
-    width: 285px;
+    width: 335px;
     height:50px; 
     border-radius: 3px;
     border-top: none;
@@ -56,7 +56,7 @@
 .form textarea:focus{
     outline: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
-    border: 3px solid #EC255A;
+    border-bottom: 3px solid #EC255A;
 }
 
 .form input::-webkit-input-placeholder, .form textarea::-webkit-input-placeholder{

@@ -8,14 +8,6 @@
     gap: 50px;
 }
 
-.about-me-contents > .image-wrapper > .image-container {
-    /*
-    padding: 6px;
-    border-top: 3px solid #3AB0FF;
-    border-bottom: 3px solid #3AB0FF;
-    */
-}
-
 .about-me-contents > .image-wrapper > .image-container> img {
     width: 450px;
     height: 450px;
@@ -46,9 +38,14 @@
     /*color: #F87474;*/
 }
 
-.description >{
-    padding-right: 175px;
+.description {
+    padding-right: 125px;
+    margin-right: -60px; 
     
+}
+
+.padding-right{
+    padding-right: 20px;
 }
 
 .description > .desc-right-border{
