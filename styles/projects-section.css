@@ -1,3 +1,26 @@
 .projects-section{
     padding-left: 27px;
 }
+
+.technologies{
+    display: flex;
+    gap: 20px;
+}
+
+.technologies > .tech {
+    /*border: 2px solid #FF0063;*/
+    padding: 5px;
+    border-radius: 5px;
+    color: #FF0063;
+    font-size: 13px;
+}
+
+
+.project-description{
+    border-right: 3px inset #F87474;
+}
+
+.padding-between-projects{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
