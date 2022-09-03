@@ -21,6 +21,21 @@
 }
 
 .padding-between-projects{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
+
+.project-image{
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+.project-image > img{
+    width:650px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.project{
+    padding-right: 50px;
+}
+
