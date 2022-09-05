@@ -1,0 +1,38 @@
+
+@media only screen and (max-width: 1200px){
+    .about-me-contents {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav {
+       
+    }
+
+    .about-me-contents > .image-wrapper > .image-container {
+        text-align: center;
+        
+    }
+
+    .about-me-socials{
+        padding: right 20px;;
+    }
+
+    .container{
+        padding-left: 0px;
+    }
+    
+    .my-skills-wrapper{
+        padding-right: 150px ;
+        padding-left: -10px;
+
+    }
+
+    .skills-description{
+        display:none;
+    }
+
+    .company-metadata-sidebar-wrapper{
+        display:none;
+    }
+}
