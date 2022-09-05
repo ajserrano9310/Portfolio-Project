@@ -27,17 +27,6 @@ body{
 }
 
 
-.project-image > img{
-    width:750px;
-    height: 500px;
-}
-
-.image-description-wrapper{
-    display: flex;
-    gap:20px;
-}
-
-
 
 .my-skills-section{
     padding-top: 3rem;

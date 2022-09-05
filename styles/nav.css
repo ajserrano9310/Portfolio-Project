@@ -8,8 +8,11 @@
 }
 
 .nav > .link{
-    padding-bottom: 5px;
+    padding: 5px;
+    color: #66BFBF;
     border-bottom: 2px solid transparent;
+    border: 2px solid #66BFBF;
+    border-radius: 15px;
     transition: 0.5s;
 }
 
