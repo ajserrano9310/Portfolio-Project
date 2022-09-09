@@ -79,10 +79,25 @@
     transition: 0.75s;
 }
 
+
+
 .form input:focus + label , .form textarea:focus + label{
 
     opacity: 1; 
     visibility: visible;
     transform: translateY(0.25rem); 
 
+}
+
+.btn{
+    width: 405px;
+    height: 40px;
+    background-color: white;
+    border: 3px solid  #45327887;
+    font-family: 'Roboto', sans-serif;
+    transition: 1000ms ease-in-out;
+}
+
+.btn:hover{
+    border: 3px solid  #EC255A;
 }

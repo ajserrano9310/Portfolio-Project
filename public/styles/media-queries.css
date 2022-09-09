@@ -27,8 +27,22 @@
     .skills-description{
         display:none;
     }
+}
 
+@media only screen and (max-width: 750px){
     .company-metadata-sidebar-wrapper{
         display:none;
+    }
+
+    .image-description-wrapper{
+        flex-direction: column;
+    }
+
+    .image-and-links-wrapper{
+        order:1; 
+    }
+
+    .project-description-wrapper{
+        order: 2;
     }
 }
