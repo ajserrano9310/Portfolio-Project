@@ -9,15 +9,12 @@
 
 .nav > .link{
     padding: 5px;
-    color: #66BFBF;
     border-bottom: 2px solid transparent;
-    border: 2px solid #66BFBF;
-    border-radius: 15px;
     transition: 0.5s;
 }
 
 .nav > .link:hover {
-    border-bottom: 2px solid pink;
+    border-bottom: 2px solid #66BFBF;
     cursor: pointer;
 }
 
