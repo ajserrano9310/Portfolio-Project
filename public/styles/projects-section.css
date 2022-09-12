@@ -108,6 +108,7 @@
     margin: 0 1rem;
 }
 
-.image-description-wrapper > .image-and-links-wrapper > .hover-items> .source-icons > .source-icon> i:hover{
-    
+.centered-heading{
+   
+    padding-bottom: 50px;
 }

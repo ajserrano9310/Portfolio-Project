@@ -27,13 +27,13 @@
     gap: 25px;
 }
 
-.about-me-socials > .social > i{
+.about-me-socials > .social > .social-icon > i{
     padding: 20px;
     font-size: 20px;
     transition: 250ms;
 }
 
-.about-me-socials > .social > i:hover{
+.about-me-socials > .social > .social-icon > i:hover{
     font-size: 25px;
     color: #66BFBF;
     cursor: pointer;
@@ -52,4 +52,8 @@
 
 .description > .desc-right-border{
     border-right: 3px inset #F87474 ; 
+}
+
+.social > .social-icon > a{
+    text-decoration: none;
 }
