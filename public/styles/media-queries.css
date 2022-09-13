@@ -29,10 +29,8 @@
     }
 }
 
-@media only screen and (max-width: 750px){
-    .company-metadata-sidebar-wrapper{
-        display:none;
-    }
+@media only screen and (max-width: 900px)
+{
 
     .image-description-wrapper{
         flex-direction: column;
@@ -44,5 +42,16 @@
 
     .project-description-wrapper{
         order: 2;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+    .company-metadata-sidebar-wrapper{
+        display:none;
+    }
+    
+    .nav{
+        width: 100%;
     }
 }
