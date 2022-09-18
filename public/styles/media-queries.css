@@ -46,12 +46,16 @@
 
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
     .company-metadata-sidebar-wrapper{
         display:none;
     }
     
     .nav{
         width: 100%;
+    }
+
+    .about-me-contents > .image-wrapper > .image-container> img{
+        display: none;
     }
 }
