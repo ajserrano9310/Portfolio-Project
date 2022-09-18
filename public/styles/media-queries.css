@@ -18,11 +18,6 @@
         padding-left: 0px;
     }
     
-    .my-skills-wrapper{
-        padding-right: 150px ;
-        padding-left: -10px;
-
-    }
 
     .skills-description{
         display:none;
@@ -47,6 +42,7 @@
 }
 
 @media only screen and (max-width: 700px){
+    
     .company-metadata-sidebar-wrapper{
         display:none;
     }
@@ -55,7 +51,38 @@
         width: 100%;
     }
 
+    
     .about-me-contents > .image-wrapper > .image-container> img{
-        display: none;
+        width: 350px;
+        height: 350px;
+    }
+    
+
+    .my-skills-wrapper{
+        flex-direction: column;
+        gap: 22px;
+
+    }
+
+    .my-skills-section{
+        padding-left: 0px;
+    }
+
+    .skill{
+        width:288px;
+    }
+
+    .about-me-contents {
+        padding-left: 0px;
+    }
+
+    .contact-me-section > .contact-me-inner-section{
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+
+    .section-header {
+        padding-left:0px;
+
     }
 }

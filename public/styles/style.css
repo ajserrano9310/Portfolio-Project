@@ -8,7 +8,7 @@ body{
     display: grid;
     max-width: 1450px;
     margin: auto;
-    padding-left: 200px;
+    /*padding-left: 200px;*/
 }
 
 .active{
