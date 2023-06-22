@@ -1,0 +1,31 @@
+
+.nav{
+    display: flex;
+    gap: 40px; 
+    justify-content: center;
+    padding: 25px;
+    border-bottom: 2px solid black;
+    width:100%;
+}
+
+.nav > .link{
+    padding: 5px;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.nav > .link:hover {
+    border-bottom: 2px solid #66BFBF;
+    cursor: pointer;
+}
+
+.nav > .link-even{
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.nav > .link-even:hover {
+    border-bottom: 2px solid aqua;
+    cursor: pointer;
+}

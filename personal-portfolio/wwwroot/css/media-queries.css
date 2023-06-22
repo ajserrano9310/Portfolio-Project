@@ -1,0 +1,88 @@
+
+@media only screen and (max-width: 1200px){
+    .about-me-contents {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-me-contents > .image-wrapper > .image-container {
+        text-align: center;
+        
+    }
+
+    .about-me-socials{
+        padding: right 20px;;
+    }
+
+    .container{
+        padding-left: 0px;
+    }
+    
+
+    .skills-description{
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 900px)
+{
+
+    .image-description-wrapper{
+        flex-direction: column;
+    }
+
+    .image-and-links-wrapper{
+        order:1; 
+    }
+
+    .project-description-wrapper{
+        order: 2;
+    }
+
+}
+
+@media only screen and (max-width: 700px){
+    
+    .company-metadata-sidebar-wrapper{
+        display:none;
+    }
+    
+    .nav{
+        width: 100%;
+    }
+
+    
+    .about-me-contents > .image-wrapper > .image-container> img{
+        width: 350px;
+        height: 350px;
+    }
+    
+
+    .my-skills-wrapper{
+        flex-direction: column;
+        gap: 22px;
+
+    }
+
+    .my-skills-section{
+        padding-left: 0px;
+    }
+
+    .skill{
+        width:288px;
+    }
+
+    .about-me-contents {
+        padding-left: 0px;
+    }
+
+    .contact-me-section > .contact-me-inner-section{
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+
+    .section-header {
+        padding-left:0px;
+
+    }
+}
