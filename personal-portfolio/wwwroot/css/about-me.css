@@ -1,4 +1,4 @@
-.about-me-section{
+.about-me-section {
     padding-top: 30px;
 }
 
@@ -9,56 +9,77 @@
     gap: 50px;
 }
 
-.about-me-contents > .image-wrapper > .image-container> img {
-    width: 450px;
-    height: 450px;
-    filter:grayscale(1);
-    transition: 0.5s ease-in-out;
-}
+    .about-me-contents > .image-wrapper > .image-container > img {
+        width: 450px;
+        height: 450px;
+        filter: grayscale(1);
+        transition: 0.5s ease-in-out;
+    }
 
-.about-me-contents > .image-wrapper > .image-container > img:hover{
-    filter: none;
-}
-.about-me-socials{
+        .about-me-contents > .image-wrapper > .image-container > img:hover {
+            filter: none;
+        }
+
+.about-me-socials {
     padding-top: 20px;
-    display:flex;
+    display: flex;
     justify-content: center;
     gap: 25px;
 }
 
-.about-me-socials > .social > .social-icon > i{
-    padding: 20px;
-    font-size: 20px;
-    transition: 250ms;
-    text-decoration: none;
-}
+    .about-me-socials > .social > .social-icon > i {
+        padding: 20px;
+        font-size: 20px;
+        transition: 250ms;
+        text-decoration: none;
+    }
 
-.about-me-socials > .social > .social-icon > i:hover{
-    font-size: 25px;
-    color: #66BFBF;
-    cursor: pointer;
-    /*color: #F87474;*/
-}
+        .about-me-socials > .social > .social-icon > i:hover {
+            font-size: 25px;
+            color: #66BFBF;
+            cursor: pointer;
+            /*color: #F87474;*/
+        }
 
 .description {
     padding-right: 125px;
-    margin-right: -60px; 
-    
+    margin-right: -60px;
 }
 
-.padding-right{
+.padding-right {
     padding-right: 80px;
 }
 
-.description > .desc-right-border{
-    border-right: 3px inset #F87474 ; 
+.description > .desc-right-border {
+    border-right: 3px inset #F87474;
 }
 
-.social > a{
+.social > a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
 .section-heading {
-    font-family: "Ibarra Real Nova", sans-serif; 
+    font-family: "Ibarra Real Nova", sans-serif;
 }
+
+ul {
+   
+    line-height: 1.5em;
+    padding: 0;
+}
+
+    ul li {
+        list-style: none;
+        position: relative;
+    }
+
+    ul.square li::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 5px;
+        width: 10px;
+        height: 10px;
+        background-color: black; /* Replace $main_color with the actual color value */
+    }

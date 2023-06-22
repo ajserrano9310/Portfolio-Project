@@ -16,12 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\u1214728\Desktop\web-tutorials\persona-portfolio\Portfolio-Project\personal-portfolio
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Home/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Home/Projects.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9qZWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Shared/Error.cshtml]

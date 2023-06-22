@@ -49,6 +49,34 @@
       "PackagePath": "staticwebassets\\images\\about-me.jpg"
     },
     {
+      "Id": "C:\\Users\\u1214728\\Desktop\\web-tutorials\\persona-portfolio\\Portfolio-Project\\personal-portfolio\\wwwroot\\images\\draw.png",
+      "PackagePath": "staticwebassets\\images\\draw.png"
+    },
+    {
+      "Id": "C:\\Users\\u1214728\\Desktop\\web-tutorials\\persona-portfolio\\Portfolio-Project\\personal-portfolio\\wwwroot\\images\\hookfall.png",
+      "PackagePath": "staticwebassets\\images\\hookfall.png"
+    },
+    {
+      "Id": "C:\\Users\\u1214728\\Desktop\\web-tutorials\\persona-portfolio\\Portfolio-Project\\personal-portfolio\\wwwroot\\images\\humans.jpg",
+      "PackagePath": "staticwebassets\\images\\humans.jpg"
+    },
+    {
+      "Id": "C:\\Users\\u1214728\\Desktop\\web-tutorials\\persona-portfolio\\Portfolio-Project\\personal-portfolio\\wwwroot\\images\\life.png",
+      "PackagePath": "staticwebassets\\images\\life.png"
+    },
+    {
+      "Id": "C:\\Users\\u1214728\\Desktop\\web-tutorials\\persona-portfolio\\Portfolio-Project\\personal-portfolio\\wwwroot\\images\\portfolio.png",
+      "PackagePath": "staticwebassets\\images\\portfolio.png"
+    },
+    {
+      "Id": "C:\\Users\\u1214728\\Desktop\\web-tutorials\\persona-portfolio\\Portfolio-Project\\personal-portfolio\\wwwroot\\images\\tiny-weather-app.jpg",
+      "PackagePath": "staticwebassets\\images\\tiny-weather-app.jpg"
+    },
+    {
+      "Id": "C:\\Users\\u1214728\\Desktop\\web-tutorials\\persona-portfolio\\Portfolio-Project\\personal-portfolio\\wwwroot\\images\\webarchitecture.jpg",
+      "PackagePath": "staticwebassets\\images\\webarchitecture.jpg"
+    },
+    {
       "Id": "C:\\Users\\u1214728\\Desktop\\web-tutorials\\persona-portfolio\\Portfolio-Project\\personal-portfolio\\wwwroot\\js\\app.js",
       "PackagePath": "staticwebassets\\js\\app.js"
     },
