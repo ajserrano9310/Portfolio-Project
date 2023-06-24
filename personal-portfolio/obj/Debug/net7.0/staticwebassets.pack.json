@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\personal-portfolio.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\u1214728\\Desktop\\web-tutorials\\persona-portfolio\\Portfolio-Project\\personal-portfolio\\wwwroot\\css\\Projects.css",
+      "PackagePath": "staticwebassets\\css\\Projects.css"
+    },
+    {
       "Id": "C:\\Users\\u1214728\\Desktop\\web-tutorials\\persona-portfolio\\Portfolio-Project\\personal-portfolio\\wwwroot\\css\\about-me.css",
       "PackagePath": "staticwebassets\\css\\about-me.css"
     },
@@ -63,6 +67,10 @@
     {
       "Id": "C:\\Users\\u1214728\\Desktop\\web-tutorials\\persona-portfolio\\Portfolio-Project\\personal-portfolio\\wwwroot\\images\\life.png",
       "PackagePath": "staticwebassets\\images\\life.png"
+    },
+    {
+      "Id": "C:\\Users\\u1214728\\Desktop\\web-tutorials\\persona-portfolio\\Portfolio-Project\\personal-portfolio\\wwwroot\\images\\port-pic.jpg",
+      "PackagePath": "staticwebassets\\images\\port-pic.jpg"
     },
     {
       "Id": "C:\\Users\\u1214728\\Desktop\\web-tutorials\\persona-portfolio\\Portfolio-Project\\personal-portfolio\\wwwroot\\images\\portfolio.png",

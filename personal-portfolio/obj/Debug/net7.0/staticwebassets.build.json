@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "93VPEizDjcylgtgrUzWJP/taNW7ZBoqeMKbep/hB1Ho=",
+  "Hash": "aQfjDwTBpwOFYdCYLFuaosjl07cPvpoZKvmNZHIxFVA=",
   "Source": "personal-portfolio",
   "BasePath": "_content/personal-portfolio",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\nav.css"
+    },
+    {
+      "Identity": "C:\\Users\\u1214728\\Desktop\\web-tutorials\\persona-portfolio\\Portfolio-Project\\personal-portfolio\\wwwroot\\css\\Projects.css",
+      "SourceId": "personal-portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\u1214728\\Desktop\\web-tutorials\\persona-portfolio\\Portfolio-Project\\personal-portfolio\\wwwroot\\",
+      "BasePath": "_content/personal-portfolio",
+      "RelativePath": "css/Projects.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Projects.css"
     },
     {
       "Identity": "C:\\Users\\u1214728\\Desktop\\web-tutorials\\persona-portfolio\\Portfolio-Project\\personal-portfolio\\wwwroot\\css\\projects-section.css",
@@ -321,6 +338,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\portfolio.png"
+    },
+    {
+      "Identity": "C:\\Users\\u1214728\\Desktop\\web-tutorials\\persona-portfolio\\Portfolio-Project\\personal-portfolio\\wwwroot\\images\\port-pic.jpg",
+      "SourceId": "personal-portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\u1214728\\Desktop\\web-tutorials\\persona-portfolio\\Portfolio-Project\\personal-portfolio\\wwwroot\\",
+      "BasePath": "_content/personal-portfolio",
+      "RelativePath": "images/port-pic.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\port-pic.jpg"
     },
     {
       "Identity": "C:\\Users\\u1214728\\Desktop\\web-tutorials\\persona-portfolio\\Portfolio-Project\\personal-portfolio\\wwwroot\\images\\tiny-weather-app.jpg",

@@ -8,6 +8,8 @@ const titleColors = {
 
 }
 
+console.log("hello world")
+
 for(let i = 0; i < sectionBtns.length; i++)
 {
     sectionBtns[i].addEventListener('click', activateSection);
