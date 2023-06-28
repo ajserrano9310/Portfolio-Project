@@ -10,19 +10,37 @@
     <div class="container">
         <div class="projects-section section active">
             <div class="personal-projects"> 
-                @for (int i = 0; i < 4; i ++)
-                {
-                    <div class="project">
+                @{
+
+                    int index = 0;
+
+                    @foreach (var project in Model.ToArray())
+                    {
+                            if(index % 2 == 0)
+                            {
+                                <h1>It's even</h1>
+                            }
+                            else
+                            {
+                                <h1> It's odd</h1>
+                            }
+
+                        index++; 
+                        <div class="project">
                         <div class="image-description-wrapper"> 
                             <div class="image-and-links-wrapper">
                                 <div class="project-image">
-                                    <img src="~/images/tiny-weather-app.jpg" />
+                                    <script>
+                                        
+                                    </script>
+                                    <img src="@project.ImageUrl"/>
+                                    
                                 </div>
 
                                 <div class="hover-items">
                                     <div class="source-icons">
                                       <a
-                                        href="https://github.com/ajserrano9310/Weather-App"
+                                        href= @project.GitHubUrl
                                         class="source-icon"
                                         target="_blank"
                                       >
@@ -36,27 +54,31 @@
                             <div class="project-description-wrapper">
                                 <div class="project-description"> 
                                     <h4>
-                                      Tiny Weather app
+                                      @project.Title
                                       <i class="fa-solid fa-code"></i>
                                     </h4>
 
                                     <p class="description">
-                                        A small weather application that uses Open Weather API to
-                                        fetch weather from different cities. The most interesting
-                                        aspect of the application was making use of JavaScript to
-                                        fetch information from the Open Weather API, and learning
-                                        about JavaScript promises.
+                                        @project.Description
                                     </p>
                                     <div class="technologies">
-                                        <div class="tech">JavaScript</div>
-                                        <div class="tech">HTML</div>
-                                        <div class="tech">CSS</div>
+                                        @{
+                                            var technologies = @project.Technologies.Split(',');
+                                            foreach(var tech in technologies)
+                                            {
+                                                <div class="tech">@tech</div>
+                                            }
+                                        }
+                                        
+                                      
                                     </div>
                                 </div>
                                 
                             </div>
                         </div>
                     </div>
+                        <div class="padding-between-projects"></div>
+                    }
                 }
             </div>
         </div>
