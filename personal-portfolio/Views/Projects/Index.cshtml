@@ -4,6 +4,13 @@
     ViewData["Title"] = "Index";
 }
 
+@{
+    static string parseTech(string tech)
+    {
+        return "";
+    }
+}
+
 <h1>Index</h1>
 
 <div class="container-grid">
@@ -18,66 +25,102 @@
                     {
                             if(index % 2 == 0)
                             {
+                                
                                 <h1>It's even</h1>
+                                <div class="project">
+                                    <div class="image-description-wrapper">
+                                     @*Links section*@
+                                        <div class="image-and-links-wrapper">
+                                            <div class="project-image">
+                                             
+                                                <img src="@project.ImageUrl" />
+                                            </div>
+
+                                            <div class="hover-items">
+                                                <div class="source-icons">
+                                                    <a href=@project.GitHubUrl class="source-icon" target="_blank">
+                                                        <i class="fa-brands fa-github"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        @*Section for description and tech*@
+                                        <div class="project-description-wrapper">
+                                            <div class="project-description">
+                                                <h4>
+                                                    @project.Title
+                                                    <i class="fa-solid fa-code"></i>
+                                                </h4>
+
+                                                <p class="description">
+                                                    @project.Description
+                                                </p>
+                                                <div class="technologies">
+                                                    @{
+                                                        foreach (var tech in @project.Technologies.Split(','))
+                                                        {
+                                                            
+                                                            <div class="tech">@tech</div>
+                                                        }
+                                                    }
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             }
+
                             else
                             {
                                 <h1> It's odd</h1>
-                            }
+                            <div class="project">
+                                <div class="image-description-wrapper">
+                                    <div class="project-description-wrapper">
 
-                        index++; 
-                        <div class="project">
-                        <div class="image-description-wrapper"> 
-                            <div class="image-and-links-wrapper">
-                                <div class="project-image">
-                                    <script>
-                                        
-                                    </script>
-                                    <img src="@project.ImageUrl"/>
-                                    
-                                </div>
-
-                                <div class="hover-items">
-                                    <div class="source-icons">
-                                      <a
-                                        href= @project.GitHubUrl
-                                        class="source-icon"
-                                        target="_blank"
-                                      >
-                                        <i class="fa-brands fa-github"></i>
-                                      </a>
+                                        <div class="project-description">
+                                            <h4>
+                                                @project.Title
+                                                <i class="fa-solid fa-code"></i>
+                                            </h4>
+                                            <p class="description">
+                                                @project.Title
+                                            </p>
+                                         
+                                            <div class="technologies">
+                                                  @{
+                                                        foreach (var tech in @project.Technologies.Split(','))
+                                                        {
+                                                            
+                                                            <div class="tech">@tech</div>
+                                                        }
+                                                    }
+                                            </div>
+                                        </div>
                                     </div>
-                                 </div>
-                             </div>
 
+                                    <div class="image-and-links-wrapper">
+                                          <div class="project-image">
+                                            <img src="@project.ImageUrl" />
+                                          </div>
 
-                            <div class="project-description-wrapper">
-                                <div class="project-description"> 
-                                    <h4>
-                                      @project.Title
-                                      <i class="fa-solid fa-code"></i>
-                                    </h4>
-
-                                    <p class="description">
-                                        @project.Description
-                                    </p>
-                                    <div class="technologies">
-                                        @{
-                                            var technologies = @project.Technologies.Split(',');
-                                            foreach(var tech in technologies)
-                                            {
-                                                <div class="tech">@tech</div>
-                                            }
-                                        }
-                                        
-                                      
+                                          <div class="hover-items">
+                                            <div class="source-icons">
+                                              <a
+                                                href="https://github.com/ajserrano9310/FigureDrawingApp"
+                                                class="source-icon"
+                                                target="_blank"
+                                              >
+                                                <i class="fa-brands fa-github"></i>
+                                              </a>
+                                            </div>
+                                          </div>
                                     </div>
-                                </div>
                                 
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                        <div class="padding-between-projects"></div>
+                            }
+                        index++; 
                     }
                 }
             </div>
