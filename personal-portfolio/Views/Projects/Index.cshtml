@@ -11,9 +11,8 @@
     }
 }
 
-<h1>Index</h1>
-
 <div class="container-grid">
+    <h1 class="section-heading" id="section-title">Personal & Academic Projects</h1>
     <div class="container">
         <div class="projects-section section active">
             <div class="personal-projects"> 
@@ -23,10 +22,10 @@
 
                     @foreach (var project in Model.ToArray())
                     {
+                        <div class="padding-between-projects"></div>
                             if(index % 2 == 0)
                             {
-                                
-                                <h1>It's even</h1>
+                      
                                 <div class="project">
                                     <div class="image-description-wrapper">
                                      @*Links section*@
@@ -38,9 +37,7 @@
 
                                             <div class="hover-items">
                                                 <div class="source-icons">
-                                                    <a href=@project.GitHubUrl class="source-icon" target="_blank">
-                                                        <i class="fa-brands fa-github"></i>
-                                                    </a>
+                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -48,9 +45,11 @@
                                         @*Section for description and tech*@
                                         <div class="project-description-wrapper">
                                             <div class="project-description">
-                                                <h4>
+                                                <h4 class="section-heading">
                                                     @project.Title
-                                                    <i class="fa-solid fa-code"></i>
+                                                    <a href=@project.GitHubUrl>
+                                                        <i class="fa-brands fa-github"></i>
+                                                    </a>
                                                 </h4>
 
                                                 <p class="description">
@@ -73,18 +72,22 @@
 
                             else
                             {
-                                <h1> It's odd</h1>
+                             
                             <div class="project">
                                 <div class="image-description-wrapper">
                                     <div class="project-description-wrapper">
 
                                         <div class="project-description">
-                                            <h4>
+                                            <h4 class="section-heading">
                                                 @project.Title
-                                                <i class="fa-solid fa-code"></i>
+                                                <a href="https://github.com/ajserrano9310/FigureDrawingApp"
+                                           class="source-icon"
+                                           target="_blank">
+                                                    <i class="fa-brands fa-github"></i>
+                                                </a>
                                             </h4>
                                             <p class="description">
-                                                @project.Title
+                                                @project.Description
                                             </p>
                                          
                                             <div class="technologies">
@@ -106,13 +109,7 @@
 
                                           <div class="hover-items">
                                             <div class="source-icons">
-                                              <a
-                                                href="https://github.com/ajserrano9310/FigureDrawingApp"
-                                                class="source-icon"
-                                                target="_blank"
-                                              >
-                                                <i class="fa-brands fa-github"></i>
-                                              </a>
+                                              
                                             </div>
                                           </div>
                                     </div>
@@ -120,7 +117,8 @@
                                 </div>
                             </div>
                             }
-                        index++; 
+                        index++;
+                        
                     }
                 }
             </div>
@@ -128,54 +126,3 @@
     </div>
 </div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.GitHubUrl)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ImageUrl)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Technologies)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.GitHubUrl)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ImageUrl)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Technologies)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
