@@ -9,61 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = personal_portfolio
 build_property.RootNamespace = personal_portfolio
-build_property.ProjectDir = C:\Users\u1214728\Desktop\web-tutorials\persona-portfolio\Portfolio-Project\personal-portfolio\
+build_property.ProjectDir = c:\Users\u1214728\Desktop\web-tutorials\persona-portfolio\Portfolio-Project\personal-portfolio\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\u1214728\Desktop\web-tutorials\persona-portfolio\Portfolio-Project\personal-portfolio
+build_property.MSBuildProjectDirectory = c:\Users\u1214728\Desktop\web-tutorials\persona-portfolio\Portfolio-Project\personal-portfolio
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Home/Admin.cshtml]
+[c:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Home/Admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Home/Index.cshtml]
+[c:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Home/Privacy.cshtml]
+[c:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Projects/Create.cshtml]
+[c:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Projects/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Projects/Delete.cshtml]
+[c:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Projects/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Projects/Details.cshtml]
+[c:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Projects/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Projects/Edit.cshtml]
+[c:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Projects/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Projects/Index.cshtml]
+[c:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Projects/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Shared/Error.cshtml]
+[c:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/_ViewImports.cshtml]
+[c:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/_ViewStart.cshtml]
+[c:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Shared/_Layout.cshtml]
+[c:/Users/u1214728/Desktop/web-tutorials/persona-portfolio/Portfolio-Project/personal-portfolio/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-pggh3cwmc4
