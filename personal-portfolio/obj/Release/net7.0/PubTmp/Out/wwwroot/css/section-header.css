@@ -1,0 +1,27 @@
+
+.square-container{
+    padding-top: 40px;
+}
+.section-header{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 30px;
+}
+
+.square {
+    height: 20px;
+    width: 20px;
+    background-color: #EC255A;
+}
+
+.heading{
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 40px;
+    padding-left: 5px;
+}
+
+.sub-heading{
+    font-family:'Josefin Sans', sans-serif;
+    padding-left: 5px;
+}

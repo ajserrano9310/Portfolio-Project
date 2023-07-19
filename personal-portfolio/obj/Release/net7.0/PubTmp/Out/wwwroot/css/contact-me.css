@@ -1,0 +1,103 @@
+
+.contact-me-section > .contact-me-inner-section{
+    padding-left: 32px;
+    display:grid; 
+    grid-template-columns: 1.5fr 3fr;
+    grid-gap:31px;
+}
+
+
+
+.contact-description {
+    border-right: 3px inset #EAF6F6;
+}
+
+.form > .form-group{
+    margin-top:30px; 
+    margin-bottom: 30px;
+}
+
+.form input{ 
+    font-family: inherit; 
+    color: inherit; 
+
+    border-radius: 2px;
+    border:none; 
+    border-bottom: 3px solid #45327887;
+    width: 400px;
+
+    display: block; 
+
+    transition: all 0.3s; 
+}
+
+.form input:focus{
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #EC255A;
+}
+
+.form textarea{
+    margin-top: 5px; 
+    width: 340px;
+    height:50px; 
+    border-radius: 3px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #45327887; 
+
+    color: inherit;
+    font-family:inherit;
+    padding:1.5rem 2rem;
+    transition: all 0.3s; 
+}
+
+.form textarea:focus{
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #EC255A;
+}
+
+.form input::-webkit-input-placeholder, .form textarea::-webkit-input-placeholder{
+    color: #11122b; 
+
+
+}
+.form input:focus::-webkit-input-placeholder, .form textarea:focus::-webkit-input-placeholder{
+    color: transparent; 
+}
+
+.form label{
+    font-weight:700; 
+    margin-top:0.2rem; 
+    display: block; 
+    transition: all 0.3s;
+    color: #11122b;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.75s;
+}
+
+
+
+.form input:focus + label , .form textarea:focus + label{
+
+    opacity: 1; 
+    visibility: visible;
+    transform: translateY(0.25rem); 
+
+}
+
+.btn{
+    width: 405px;
+    height: 40px;
+    background-color: white;
+    border: 3px solid  #45327887;
+    font-family: 'Roboto', sans-serif;
+    transition: 1000ms ease-in-out;
+}
+
+.btn:hover{
+    border: 3px solid  #EC255A;
+}

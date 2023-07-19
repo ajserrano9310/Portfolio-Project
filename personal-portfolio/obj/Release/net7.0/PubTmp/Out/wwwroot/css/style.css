@@ -1,0 +1,129 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.container{
+    display: grid;
+    max-width: 1450px;
+    margin: auto;
+    /*padding-left: 200px;*/
+}
+
+.active{
+    display: block !important;
+    animation: scaleAnim 2000ms ease-in-out;
+}
+
+@keyframes scaleAnim {
+    0%
+    {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+.my-skills-section{
+    padding-top: 3rem;
+    padding-bottom: 4rem; 
+    padding-left: 30px;
+}
+
+.skills-description
+{
+    border-right: 3px inset #EAF6F6;
+}
+
+.my-skills-section > .skills-heading {
+   text-align: center;
+   padding-top: 75px;
+}
+
+.my-skills-wrapper{
+    display: flex; 
+    justify-content: center;
+    gap: 127px;
+    padding-right: 103px;
+
+}
+
+.skill {
+    padding-bottom: 15px;
+}
+
+.skill > .skill-name{
+    font-size: 14px;
+}
+
+.skill-bar {
+    height: 5px; 
+    background: #c4c2c262;
+    border-radius: 2px;
+
+}
+
+.selection-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position:fixed;
+    left: 175px;
+    bottom: 600px;
+}
+
+
+.skill-per{
+    height: 5px; 
+    background-color:#66BFBF;
+    position:relative;
+    border-radius: 2px;
+    animation: fillBars 2.5s 1;
+}
+.programming-languages-wrapper {
+    width: 25%;
+}
+
+.tech-wrapper{
+    width: 25%;   
+}
+
+#left-nav {
+    position: fixed;
+    left: -200px;
+    width: 150px;
+    height: 100px;
+    -webkit-animation: slide 250ms forwards;
+    -webkit-animation-delay: 250ms;
+    animation: slide 250ms forwards;
+    animation-delay: 250ms;
+}
+
+.projects-wrapper {
+    display: none;
+}
+
+.inactive {
+    display:none; 
+}
+
+.section {
+    display:none;
+}
+
+@keyframes slide {
+    100% { left: 250px; }
+}
+
+@keyframes fillBars {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
